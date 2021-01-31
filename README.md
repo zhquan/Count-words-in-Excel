@@ -1,13 +1,13 @@
 This script counts the occurrences of words in a specific column in an EXCEL file.
 
-#Requirements
+# Requirements
 
 Install the requirements file using `pip3`:
 ```
 pip3 install -r requirements.txt
 ```
 
-#How to use
+# How to use
 Execute `-h` to know the arguments
 ```
 usage: count_words.py [-h] [--show SHOW] excel column_name
@@ -30,15 +30,16 @@ Example:
 ```
 pyhton3 count_words.py test.xlsx "ProductName" --show 3
 
-+-------------+-------------------+
-| ProductName | Occurrence number |
-+-------------+-------------------+
-|   product3  |         4         |
-|   product1  |         3         |
-|   product4  |         2         |
-+-------------+-------------------+
++-------------+-------+
+| ProductName | Times |
++-------------+-------+
+|   product3  |   4   |
+|   product1  |   3   |
+|   product4  |   2   |
++-------------+-------+
+
 ```
 
-#License
+# License
 
 Licensed under GNU General Public License (GPL), version 3 or later.
